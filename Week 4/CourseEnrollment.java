@@ -5,8 +5,8 @@ public class CourseEnrollment {
 
         System.out.println("Withdraw from empty: " + c1.withdraw()); 
 
-        System.out.println("Enroll 1: " + c1.enroll()); // true
-        System.out.println("Enroll 2: " + c1.enroll()); // true
+        System.out.println("Enroll 1: " + c1.enroll()); 
+        System.out.println("Enroll 2: " + c1.enroll()); 
         System.out.println("Enroll over capacity: " + c1.enroll()); 
 
         Course c2 = new Course("MTH201", "Calculus", 3);
