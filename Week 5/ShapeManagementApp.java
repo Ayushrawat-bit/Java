@@ -9,7 +9,6 @@ abstract class Shape {
         return color;
     }
 
-    // Abstract methods
     public abstract double getArea();
     public abstract double getPerimeter();
 
